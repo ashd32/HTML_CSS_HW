@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   
   <!---Media Queries and custom styles-->
-  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="./style.css">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -36,8 +36,10 @@
       <a class="nav-link active" href="./data.html">Data</a>
     </li>
   </ul>
-  <br>
-  
+   
+  <!-- Page Content -->
+   
+
   <script type="text/javascript">
     function Upload() {
         var fileUpload = document.getElementById("fileUpload");
@@ -73,9 +75,18 @@
 </script>
 <input type="file" id="fileUpload" />
 <input type="button" id="upload" value="Upload" onclick="Upload()" />
+    <div class="row">
+      <h5>The following table includes all of the data used for 
+          plotting during this project.</h5>
+    </div>
 <hr />
 <div id="dvCSV">
 </div>
 
+
+<!-- Footer -->
+  <div class="card-footer text-muted">© 2019 Copyright: Benyam Gizam</div>
+<!-- Footer -->
+</body>
 </body>
 </html>

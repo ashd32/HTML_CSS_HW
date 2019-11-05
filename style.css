@@ -62,3 +62,64 @@ td {
     border: 1px black solid;
     padding: 5px;
 }
+
+.plotBox,
+.row {
+    margin: 50px;
+}
+
+h3,
+h5,
+.card-footer {
+    text-align: center;
+}
+
+
+/* ----IMAGE NAV START---- */
+
+.imageNav-photo {
+    width: 140px;
+    /* Box-model */
+    height: 140px;
+}
+
+.imageNav-photo:hover {
+    /* Visuals */
+    opacity: 0.6;
+}
+
+.imageNav-photo.active {
+    /* Visuals */
+    border: 2px solid #4aaaa5;
+}
+
+#images {
+    /* Box-model */
+    padding-top: 15px;
+    /* Typography */
+    text-align: center;
+}
+
+
+/* ----IMAGE NAV END---- */
+
+
+/* ----COMPARISON START---- */
+
+.comparison-image:hover {
+    opacity: 0.6;
+}
+
+.comparison-header {
+    /* Positioning */
+    margin-bottom: 10px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    /* Typography */
+    font-size: 20px;
+    font-weight: bold;
+    color: #4aaaa5;
+    text-align: center;
+}
+
+
+/* ----COMPARISON END---- */
